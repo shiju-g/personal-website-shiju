@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIJU</title>
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C5603AQGelB5ABH0uqg/profile-displayphoto-shrink_200_200/0/1620470712701?e=1629936000&v=beta&t=F8LvsRWCPJuxBpRrHp_2EGj2q7_2ixa6tVkVD1YGV-o" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="hdg"  style="position: fixed;">
+      <div class="row">
+        <div class="left-nav">
+           <h2>SHIJU.G</h2>
+        </div>
+        <div class="right-nav">
+          
+           <ul  class="list-inline"id="show" >
+              <li class="first-list"><a href="#">Home</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#showachieve">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+              
+           </ul>
+           
+          
+        </div>
+        <div  class="burger" id="toggle-btn" onclick="myFunction()" >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+           </div>
+           
+      </div>  
+      <a href="#" id="cls" onclick="navClose()">&times;</a>
+    </header>
+
+    <section >
+       <div class="container">
+          <div class="row">
+             <div class="left-section"style="margin-top: 93px;">
+                <img src="portfolio.JPG" alt="" width="250px" height="250px" class="pro-img ">
+             </div>
+             <div class="right-section">
+               <h2 class="place-qoutes">Web Designer
+                  </h2>
+                 <h4 class="para-qoute">"Live as if you were to die tomorrow"</h4>
+                 <p>- Shiju</p>
+             </div>
+          </div>
+       </div>
+      
+    </section>
+    
+      <h2 id="education" style="margin-top: 351px;">Education</h2>
+       <div class="cards" >
+             <div class="card1">
+                <h4>Degree<h4>
+                <h5>BCA(Computer Application)</h5>
+                <p>I completed my Graduation at Barathiyar University in BCA</p>
+                <p class="p1">Started  2018</p>
+                <p class="p2">Ended  2021</p>
+             </div>
+
+             <div class="card2">
+               <h4>Higher Secondary<h4>
+               <h5>Computer Science</h5>
+               <p>I completed my Pre Degree at Velayudhan Memorial Higher Secondary School</p>
+               <p class="p1">Started  2016</p>
+               <p class="p2">Ended  2018</p>
+            </div>
+
+            <div class="card3">
+               <h4>SSLC<h4>
+               <h5></h5>
+               <p class="sslc">I completed my SSLC at Velayudhan Memorial Higher Secondary School</p>
+               <p class="p3">Passout 2016</p>
+            </div>
+         
+      
+    </div>
+      <h2 id="achievement">Achievements</h2>
+      <div id="showachieve" class="achieve">
+         <div class="achieve1">
+            <image src="react.jpg" alt="" id="logo-react"></image>
+            <h4>React.js</h4>
+            <p>Succesfully completed A Project & 7 Days Bootcamp on "Javascript & React.js" conducted by"ShapeAi",certificates providers are"Microsost Learn Student Ambassador" & "AWS Student Club(ASC)"<br><a href="https://www.cert.shapeai.tech/verify/Z1PoO0f">show certificate</a></p>
+         </div>
+         <div class="achieve2">
+            <image src="java.jpg" alt="" id="logo-java"></image>
+            <h4>Java</h4>
+            <p>
+               Succesfully completed A Project on"Java programming" for College.Title-"ACADEMIC GLOBAL REGULATION PORTAL".software requirements:"Frontend-java swing,Backend-mysql 5.0"</p>
+         </div>
+         <div class="achieve3">
+            <image src="python.jpg" alt="" id="logo-python"></image>
+            <h4>Python</h4>
+            <p>Succesfully completed A National Level One Week Webinar for Students on "Python Programming For Beginners",Organized by Department of Computer application,MITS-MADANAPELLE During 20 to 24 July 2020 </p>
+         </div>
+        
+      </div>
+      <div id="show-achieve" class="achieve">
+         <div class="achieve4">
+            <image src="webtech.jpg" alt="" id="logo-webtech"></image>
+            <h4>Web Technologies</h4>
+            <p>Succesfully completed A National Level One Week Webinar for Students on "Web Technologies-practical perspective",Organized by Department of Computer application,MITS-MADANAPELLE During 03 to 07 August 2020</p>
+         </div>
+         <div class="achieve5">
+            <image src="php.jpg" alt="" id="logo-php"></image>
+            <h4>PhP</h4>
+            <p>Succesfully completed A Two Week Internship on "PhP-Hypertext PreProcessor" at Safe Technologies</p>
+         </div>
+         <div class="achieve6">
+            <image src="python.jpg" alt="" id="logo-python"></image>
+            <h4>Python</h4>
+            <p>Succesfully completed A Programming Course on "Python Basic With Database Connectivity" Organized By UDEMY online Platform on August 8 2020</p>
+         </div>
+        
+      </div>
+      <div id="open-close">
+      <a href="#achieve" id="see-more">see more</a>
+      <a href="#achieve" id="see-less">see less</a>
+       </div>
+      <div id="contact"> 
+         <h2 id="showcontact">Contact Me</h2>
+         <div class="con">
+         <form id="submit-form"  action="">
+            <label for="fname" >First Name</label><br>
+            <input type="text" id="fname" name="Name" placeholder="Your name.."><br>
+        
+            <label for="mail">E-mail</label><br>
+            <input type="email" id="" name="E-mail" placeholder="E-mail"><br>
+        
+            <label for="phone">Mobile</label><br>
+            <input type="tel" id="" name="Phone" placeholder="mobile number"><br>
+        
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="Subject" placeholder="Write something.." style="height:200px"></textarea><br>
+        
+            <div id="sub-btn"onclick="openSubmit()"><input type="submit" value="Submit"></div>
+          </form>
+         </div>
+      </div>
+<footer>
+   <i class="fab fa-facebook-square"><i>
+   <i class="fab fa-instagram"></i>
+   <i class="fab fa-twitter"></i>
+   <p>copyright</p>
+</footer>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
+  
+
+      <script>
+         $("#submit-form").submit((e)=>{
+             e.preventDefault()
+             $.ajax({
+                 url:"https://script.google.com/macros/s/AKfycbzjWAbszaoc29d75TfDbez9cJuWya3jIQnppyY6W1UjV7stQTpkmsR3LwRG6fN7aQJN/exec",
+                 data:$("#submit-form").serialize(),
+                 method:"post",
+                 success:function (response){
+                     alert("Form submitted successfully")
+                     window.location.reload()
+                     //window.location.href="https://google.com"
+                 },
+                 error:function (err){
+                     alert("Something Error")
+     
+                 }
+             })
+         })
+     </script>   
+</body>
+</html>
