@@ -523,7 +523,7 @@ input[type=text], select, textarea {
     margin-left: 15%;
     margin-right: 15%;
     box-shadow: 1px 1px 1px 1px;
-    box-shadow-color: skyblue;
+    box-shadow-color: blue;
   }
 input[type=email],[type=tel]{
     width: 100%;
