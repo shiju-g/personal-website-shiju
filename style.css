@@ -300,17 +300,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14a4e6",endCo
     margin-top: 23%;
 }
 .card1:hover{
-   background: white;
+   background: #10aae4;
     color: black;
      
 }
 .card2:hover{
-background: white;
+background: #10aae4;
     color: black;
      
 }
 .card3:hover{
-background: white;
+background: #10aae4;
     color: black;
 }
 @media screen and (max-width: 670px){
@@ -444,7 +444,7 @@ background: white;
     display: none;
 }
 .achieve div:hover{
-    background: white;
+    background: #10aae4;
     color: black;
 }
 #open-close{
@@ -523,7 +523,7 @@ input[type=text], select, textarea {
     margin-left: 15%;
     margin-right: 15%;
     box-shadow: 0 2px 2px 0;
-
+    box-shadow-color: #10aae4;
   }
 input[type=email],[type=tel]{
     width: 100%;
