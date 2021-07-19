@@ -522,8 +522,8 @@ input[type=text], select, textarea {
     margin-top: 25px;
     margin-left: 15%;
     margin-right: 15%;
-    box-shadow: 2px 1px 1px 2px;
-    box-shadow-color: rgb(20,164,230);
+    border: 1px solid;
+    border-color: rgb(20,164,230);
     background: -moz-linear-gradient(164deg, rgba(20,164,230,1) 5%, rgba(0,191,222,1) 19%, rgba(20,176,230,1) 27%, rgba(20,179,230,1) 38%, rgba(44,181,233,1) 44%, rgba(66,214,235,0.8855917366946778) 61%, rgba(87,191,237,1) 88%, rgba(60,180,234,1) 100%, rgba(215,241,250,1) 100%);
     background: -webkit-linear-gradient(164deg, rgba(20,164,230,1) 5%, rgba(0,191,222,1) 19%, rgba(20,176,230,1) 27%, rgba(20,179,230,1) 38%, rgba(44,181,233,1) 44%, rgba(66,214,235,0.8855917366946778) 61%, rgba(87,191,237,1) 88%, rgba(60,180,234,1) 100%, rgba(215,241,250,1) 100%);
     background: linear-gradient(164deg, rgba(20,164,230,1) 5%, rgba(0,191,222,1) 19%, rgba(20,176,230,1) 27%, rgba(20,179,230,1) 38%, rgba(44,181,233,1) 44%, rgba(66,214,235,0.8855917366946778) 61%, rgba(87,191,237,1) 88%, rgba(60,180,234,1) 100%, rgba(215,241,250,1) 100%);
